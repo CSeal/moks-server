@@ -1,0 +1,17 @@
+{
+  "name": "moks-server",
+  "version": "1.0.0",
+  "description": "simple moks server",
+  "main": "server.js",
+  "author": "man",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}
